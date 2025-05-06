@@ -8,4 +8,4 @@ class Animal:
         print("Makes a generic animal sound.")
 
     def describe(self): # describe the animal
-        print(f"This is {self.name} ({self.age} years old)")
+        print(f"{self.__class__.__name__} - Name: {self.name}, Age: {self.age}")
